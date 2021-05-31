@@ -14,7 +14,7 @@ public class HomeController {
 	public ModelAndView goHome(HttpServletRequest request) {
 		System.out.println("page move~~~~~");
 		ModelAndView mv = new ModelAndView();
-		mv.setViewName("content/home");
+		mv.setViewName("content/home"); 
 		return mv;
 	}
 	
