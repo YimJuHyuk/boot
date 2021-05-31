@@ -12,7 +12,7 @@ public class HomeController {
 
 	@RequestMapping(value = "", method=RequestMethod.GET)
 	public ModelAndView goHome(HttpServletRequest request) {
-		System.out.println("page move~~~~~");
+		System.out.println("page move~~~~~"); 
 		ModelAndView mv = new ModelAndView();
 		mv.setViewName("home");  
 		return mv;
