@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BootApplication {
 
 	public static void main(String[] args) {
-		System.out.println("TEST");
+		System.out.println("update__05-31");
 		SpringApplication.run(BootApplication.class, args);
 	}
 
