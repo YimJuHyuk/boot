@@ -12,11 +12,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HomeController {
 
-	@RequestMapping(value = "/home", method=RequestMethod.GET)
+	@RequestMapping(value = "/", method=RequestMethod.GET)
 	public String goHome(HttpServletRequest request) {
-		
-		log.error("호출한다아");
-		
+		System.out.println("page move~~~~~");
 		return "content/home";
 	}
 	
